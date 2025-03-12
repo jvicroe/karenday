@@ -14,3 +14,8 @@ envelope.addEventListener("mouseout", () => {
 });
 
 heartSeal.style.transition = "opacity 0.3s ease";
+
+// Agregar funcionalidad para abrir/cerrar la carta en móviles
+envelope.addEventListener("click", () => {
+  envelope.classList.toggle("open");
+});
